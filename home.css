@@ -35,7 +35,7 @@ body {
   top: 0;
   z-index: 99;
   padding: 0 30px;
-  background-color: #4b0f00a1;
+  background-color: #3b0c00a1;
   backdrop-filter: blur(50px);
   box-shadow: 0 15px 12px rgba(0, 0, 0, 0.15);
   transition: background-color 0.3s ease;
