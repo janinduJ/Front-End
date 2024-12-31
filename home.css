@@ -35,10 +35,11 @@ body {
   top: 0;
   z-index: 99;
   padding: 0 30px;
-  background-color: #0f2418a1;
+  background-color: #4b0f00a1;
   backdrop-filter: blur(50px);
   box-shadow: 0 15px 12px rgba(0, 0, 0, 0.15);
   transition: background-color 0.3s ease;
+  background-image: url(images/otis-redding.png);
 }
 
 .searchbox {
@@ -475,7 +476,7 @@ body {
   background-attachment: fixed;
 }
 .card {
-  background-color: #fff2f2;
+  background: linear-gradient(135deg, #ff3300, #ff7300);
   position: absolute;
   margin-top: 6.5%;
   width: 80%;
@@ -491,16 +492,16 @@ body {
   line-height: 25px;
   margin-top: 2%;
   margin-bottom: 2%;
-  color: rgb(32, 32, 32);
+  color: rgb(253, 253, 253);
   font-size: 18px;
 }
 .card-title {
   font-size: 50px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .cnt {
-  background-color: #ff2f0b;
+  background-color: #ffffff;
   outline: none;
   border: none;
   padding: 15px;
@@ -509,20 +510,20 @@ body {
   margin-top: -5%;
   border-radius: 30px;
   cursor: pointer;
-  color: white;
+  color: rgb(255, 38, 0);
 }
 
 .card:before {
   content: "";
   position: absolute;
   z-index: -1;
-  top: 450px;
-  right: -16px;
-  background: linear-gradient(135deg, #ff3300, #ff7300);
-  height: 85px;
-  width: 85px;
-  border-radius: 50px;
-  transition: transform 0.4s ease-out;
+  top: 480px;
+  right: -20px;
+  background: linear-gradient(135deg, #ffffff, #ff3300);
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+  transition: transform 0.5s ease-out;
 }
 
 .card:hover:before {
@@ -530,17 +531,17 @@ body {
 }
 
 .card:hover .small-desc {
-  transition: all 0.2s ease-out;
-  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.4s ease-out;
+  color: rgb(29, 29, 29);
 }
 
 .card:hover .card-title {
-  transition: all 0.2s ease-out;
-  color: #ffffff;
+  transition: all 0.4s ease-out;
+  color: #000000;
 }
 .cnt:hover {
-  background-color: #f1f1f1;
-  color: #fc3b00;
+  background-color: #ff1e00;
+  color: #f3f3f3;
 }
 .footer {
   display: flex;

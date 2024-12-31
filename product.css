@@ -10,6 +10,9 @@ body {
   margin: 0;
   height: 100vh;
   overflow-x: hidden;
+  background-color: #1b1b1b;
+  background-image: url(images/otis-redding.png);
+  background-attachment: fixed;
 }
 
 .header {
@@ -22,10 +25,11 @@ body {
   top: 0;
   z-index: 99;
   padding: 0 30px;
-  background-color: #0f2418a1;
+  background-color: #4b0f00a1;
   backdrop-filter: blur(50px);
   box-shadow: 0 15px 12px rgba(0, 0, 0, 0.15);
   transition: background-color 0.3s ease;
+  background-image: url(images/otis-redding.png);
 }
 
 .searchbox {
@@ -132,7 +136,7 @@ body {
 }
 
 .product-image {
-  flex: 1 1 100%;
+  flex: 1 1;
   background: #f0f0f0;
   display: flex;
   justify-content: center;
